@@ -1,6 +1,6 @@
 function Invoke-DeployCaptureServer {
     <#
-    .DESCRIPTION
+    .DESCRIPTION 
         Deploy the token capture setup in Azure
     .EXAMPLE
         Invoke-DeployCaptureServer -ResourceGroup Myresourcegroup -location eastus -vmName codecapture -vmPublicDNSName msftcodes -pubKey ./mykey.pub
